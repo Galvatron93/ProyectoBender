@@ -203,7 +203,7 @@ html {
  margin: 0.5em 2em;
  flex: 1;
 justify-content: space-between;
- background-image: url('img/FondoAsaide3.jpg');
+ background-image: url('FondoAsaide3.jpg');
  background-size: cover;
  background-repeat: repeat;
  background-position: bottom;
@@ -223,7 +223,7 @@ justify-content: space-between;
 }
 
 .ColeccionTitulo{
-    background-image: url('img/FondoCarta5.jpg');
+    background-image: url('FondoCarta5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -241,7 +241,7 @@ justify-content: space-between;
     padding: 0.3em;
     margin-top: 1em;
     border-top: 1px solid black;
-    background-image: url('img/FondoCarta5.jpg');
+    background-image: url('FondoCarta5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -267,7 +267,7 @@ flex-direction: column;
 margin: 0.5em 2em;
 flex: 1;
 justify-content: space-between;
-background-image: url('img/FondoAsaide3.jpg');
+background-image: url('FondoAsaide3.jpg');
 background-size: cover;
 background-repeat: repeat; background-position: bottom;
 border-radius: 10px;
@@ -292,7 +292,7 @@ margin-bottom: 6em;
 }
 
 .ListaTitulo{
-    background-image: url('img/FondoCarta5.jpg');
+    background-image: url('FondoCarta5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -310,7 +310,7 @@ margin-bottom: 6em;
     padding: 0.3em;
     margin-top: 1em;
     border-top: 1px solid black;
-    background-image: url('img/FondoCarta5.jpg');
+    background-image: url('FondoCarta5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -391,7 +391,7 @@ box-shadow: 6px 6px 15px blue;
     justify-content: space-between;
     border: 3px solid black;
     border-radius: 10px;
-    background-image: url('img/FondoOtraCarta.jpg');
+    background-image: url('FondoOtraCarta.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
