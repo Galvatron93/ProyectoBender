@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu{
+    background: linear-gradient(90deg, #606060, hsl(0, 0%, 4%));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.menu img{
+    padding-left: 0.5rem;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+h1{
+    padding: 2rem;
+    font-style: italic;
+    color: white;
+    font-family: "Londrina Sketch";
+    font-size: 3.5em;
+}
+
+.menu li{
+    padding: 2rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Londrina Sketch";
+    font-size: 1.7em;
+}
+
+.menu a:hover{
+ color: blue;
+ font-size: 1.9em;
+}
+
+
+#Actual{
+    color: rgb(88, 88, 251) !important;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.225);
+    
+}
+html {
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%,#20222a 68% 70%,#00000000 72%;
+    background: 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
+  }
+
+.menu-secundario{
+        background: linear-gradient(180deg, #dcdcdce7, hsla(0, 0%, 0%, 0));
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+}
+
+.menu-secundario ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.menu-secundario li{
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.menu-secundario a{
+    text-decoration: none;
+    color: black;
+    font-family: "Permanent Marker";
+    font-size: 1.3em;
+}
+
+.menu-secundario a:hover{
+    color: blue;
+    font-size: 1.5em;
+   }
+
+.piepag{
+    background-color: black;
+    display: flex;
+    color: white;
+    font-size: 1em;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    width: 100%;
+    position: relative;
+}

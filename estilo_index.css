@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu{
+    background: linear-gradient(90deg, #606060, hsl(0, 0%, 4%));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.menu img{
+    padding-left: 0.5rem;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+h1{
+    padding: 2rem;
+    font-style: italic;
+    color: white;
+    font-family: "Londrina Sketch";
+    font-size: 3.5em;
+}
+
+.menu li{
+    padding: 2rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Londrina Sketch";
+    font-size: 1.7em;
+}
+
+.menu a:hover{
+ color: blue;
+ font-size: 1.9em;
+}
+
+
+#Actual{
+    color: rgb(88, 88, 251) !important;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: rgba(0, 0, 0, 0.225);
+    
+}
+html {
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%,#20222a 68% 70%,#00000000 72%;
+    background: 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
+  }
+
+.menu-secundario{
+        background: linear-gradient(180deg, #dcdcdce7, hsla(0, 0%, 0%, 0));
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+}
+
+.menu-secundario ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.menu-secundario li{
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.menu-secundario a{
+    text-decoration: none;
+    color: black;
+    font-family: "Permanent Marker";
+    font-size: 1.3em;
+}
+
+.menu-secundario a:hover{
+    color: blue;
+    font-size: 1.5em;
+   }
+
+.piepag{
+    background-color: black;
+    display: flex;
+    color: white;
+    font-size: 1em;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    width: 100%;
+    position: relative;
+}
+
+.Carrusel{
+    justify-content: center;
+}
+
+.slider01{
+	width: 50em;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider01 ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider01 li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider01 img {
+	width: 100%;
+}
+
+@keyframes slide01 {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+#ColeccionTitulo{
+    text-decoration: none;
+    color: rgb(88, 88, 251);
+    font-family: "Londrina Sketch";
+    font-size: 2.5em;
+    padding: 0.6em;
+    font-style: italic;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.Colecciones{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.Coleccion{
+ display: flex;
+ flex-direction: column;
+ align-items: auto;
+ margin: 0.5em 2em;
+ flex: 1;
+justify-content: space-between;
+ background-image: url('img/FondoAsaide3.jpg');
+ background-size: cover;
+ background-repeat: repeat;
+ background-position: bottom;
+ border-radius: 10px;
+ border: double 5px black;
+ box-shadow: 3px 3px 15px blue;
+}
+ .Coleccion li{
+    margin: 0.4em;
+    list-style: none;
+    padding: 0.2em;
+    color: black;
+    font-family: "Permanent Marker";
+    font-size: 1.4em;
+    font-weight: 600;
+    
+}
+
+.ColeccionTitulo{
+    background-image: url('img/FondoCarta5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(145, 152, 247);
+    font-family: "Permanent Marker";
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 1.1em;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+}
+
+.PieColeccion{  
+    padding: 0.3em;
+    margin-top: 1em;
+    border-top: 1px solid black;
+    background-image: url('img/FondoCarta5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: "Permanent Marker";
+    font-size: 1.3em;
+    text-align: center;
+   }
+
+
+.LoMasVendido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: auto;
+    text-align: center;
+}
+
+.Lista{
+display: flex;
+flex-direction: column;
+margin: 0.5em 2em;
+flex: 1;
+justify-content: space-between;
+background-image: url('img/FondoAsaide3.jpg');
+background-size: cover;
+background-repeat: repeat; background-position: bottom;
+border-radius: 10px;
+border: double 5px black;
+box-shadow: 1px 1px 3px blue;
+padding: auto;
+background-color: gray;
+margin: 3em;
+margin-left: 2em;
+margin-right: 2em;
+margin-bottom: 6em;
+}
+
+.Lista ol li{
+    list-style: none;
+    justify-content: center;
+    margin: 1.1em;
+    color: black;
+    font-family: "Permanent Marker";
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.ListaTitulo{
+    background-image: url('img/FondoCarta5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: "Permanent Marker";
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 1.1em;
+    border-radius: 10px;
+    border-bottom: 1px solid black;  
+}
+
+.ListaPie{  
+    padding: 0.3em;
+    margin-top: 1em;
+    border-top: 1px solid black;
+    background-image: url('img/FondoCarta5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: "Permanent Marker";
+    font-size: 1.3em;
+    text-align: center;
+   }
+
+.RecoManga{
+margin: 0.5em;
+margin-bottom: 6em;
+margin-right: 3em;
+margin-top: 3em;
+background-color: gray;
+text-align: center;
+background-image: url('img/FondoOtraCarta.jpg');
+background-size: cover;
+background-repeat: repeat;
+background-position: bottom;
+border-radius: 10px;
+border: double 3px blue;
+box-shadow: 6px 6px 15px blue;
+}
+
+.RecoManga h3{
+    padding: 0.2em;
+    padding-bottom: 1.5em;
+    color: white;
+    font-family: "Londrina Sketch";
+    font-size: 3em;
+}
+
+.slider02{
+	width: 50em;
+    height: auto;
+	margin:auto;
+	overflow: hidden;
+}
+
+.slider02 ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider02 li {
+	width: 100%;
+	list-style: none;
+}
+
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.Merchandising{
+    display: grid;
+    padding: 20px;
+    background-color: silver;
+    grid-template-columns: repeat(6,1fr);
+    flex-wrap: wrap;
+    margin: 1em;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url('img/FondoOtraCarta.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.OtraCarta{
+    color: white;
+    display: grid;
+    margin: auto;
+    text-align: center;
+    gap: 1em;
+}
+
+.OtraCarta img{
+    width: 9.5em;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.OtraCarta img:hover{
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+.OtraCarta picture{
+    justify-content: center;
+    justify-items: center;
+}
