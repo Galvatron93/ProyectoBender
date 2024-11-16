@@ -184,7 +184,7 @@ main{
     justify-content: space-evenly;
     border: 1px solid black;
     border-radius: 10px;
-    background-image: url('img/FondoAsaide.jpg');
+    background-image: url('FondoAsaide.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -221,7 +221,7 @@ main{
     padding: 0.3em;
     margin-top: 1em;
     border-top: 1px solid black;
-    background-image: url('img/FondoCarta5.jpg');
+    background-image: url('FondoCarta5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -237,7 +237,7 @@ main{
     justify-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
-    background-image: url('img/FondoCarta06.jpg');
+    background-image: url('FondoCarta06.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -257,7 +257,7 @@ main{
     margin: 1em;
     border: 1px solid black;
     border-radius: 10px;
-    background-image: url('img/FondoAsaide2.jpg');
+    background-image: url('FondoAsaide2.jpg');
     background-size: cover;
     background-repeat: repeat;
     background-position: bottom;
@@ -280,7 +280,7 @@ main{
 }
 
 .TagsTitulo{
-    background-image: url('img/FondoCarta5.jpg');
+    background-image: url('FondoCarta5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -306,7 +306,7 @@ main{
     justify-content: space-evenly;
     border: 1px solid black;
     border-radius: 10px;
-    background-image: url('img/FondoAsaide2.jpg');
+    background-image: url('FondoAsaide2.jpg');
     background-size: cover;
     background-repeat: repeat;
     background-position: bottom;
@@ -331,7 +331,7 @@ main{
     justify-content: space-between;
     border: 3px solid black;
     border-radius: 10px;
-    background-image: url('img/FondoOtraCarta.jpg');
+    background-image: url('FondoOtraCarta.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
